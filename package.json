@@ -8,22 +8,22 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./lib/index.d.ts",
-      "import": "./lib/index.mjs",
-      "default": "./lib/index.js"
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.js"
     },
-    "./lib/plugin": {
-      "default": "./lib/plugin/index.js"
+    "./src/plugin": {
+      "default": "./src/plugin/index.js"
     },
-    "./lib/web": {
-      "types": "./lib/web/index.d.ts",
-      "import": "./lib/web/index.mjs",
-      "default": "./lib/web/index.js"
+    "./src/web": {
+      "types": "./src/web/index.d.ts",
+      "import": "./src/web/index.mjs",
+      "default": "./src/web/index.js"
     },
-    "./lib/web/preact": {
-      "types": "./lib/web/preact.d.ts",
-      "import": "./lib/web/preact.mjs",
-      "default": "./lib/web/preact.js"
+    "./src/web/preact": {
+      "types": "./src/web/preact.d.ts",
+      "import": "./src/web/preact.mjs",
+      "default": "./src/web/preact.js"
     }
   },
   "files": [
