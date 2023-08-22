@@ -1,6 +1,6 @@
 {
   "name": "react-native-react-bridge",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "description": "An easy way to integrate your React (or Preact) app into React Native app with WebView.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -37,7 +37,7 @@
     "prepublishOnly": "npm run typedoc && rimraf lib && npm run build"
   },
   "dependencies": {
-    "babel-plugin-module-resolver": "4.1.0"
+    "babel-plugin-module-resolver": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.22.9",
@@ -51,10 +51,10 @@
     "jest-environment-jsdom": "29.0.2",
     "metro-react-native-babel-preset": "^0.73.0",
     "preact": "10.17.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-native": "0.72.4",
-    "react-native-webview": "11.26.1",
+    "react-native-webview": "^13.3.1",
     "rimraf": "3.0.2",
     "rollup": "3.27.0",
     "ts-jest": "29.0.5",
